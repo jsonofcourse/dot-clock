@@ -5,6 +5,7 @@ html, body {
 body {
   margin: 0;
   display: flex;
+  background-color: #333333;
 
   /* This centers our sketch horizontally. */
   justify-content: center;
@@ -14,5 +15,8 @@ body {
 }
 
 canvas {
-  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
